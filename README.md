@@ -21,3 +21,5 @@ The pinhole projects a square light spot onto the sensor surface. The displaceme
 - **Overlap Calculation**: Using 'rectint()' to determine the area of the light spot that falls into each quadrant.
 - **Signal Calculation**: Each quadrant's output is proportional to the overlap area, with added Gaussian noise ('randn()').
 - **Angle Recovery**: Uses normalized difference of quadrant outputs to estimate 'S_α', 'S_β', and recover original angles via:
+α = atan(S_α * tan(α_max))
+β = atan(S_β * tan(β_max))
