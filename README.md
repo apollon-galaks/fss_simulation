@@ -58,8 +58,10 @@ The script can be extended to:
 
 Spot projection for a random sun vector:
 
-Alpha = -12.3°, Beta = 8.6°
+Alpha = -14.52°, Beta = -20.96°
 [Q1, Q2, Q3, Q4] calculated → S_alpha, S_beta → Reconstructed angles
+![image](https://github.com/user-attachments/assets/bb7a9a82-0908-45cf-ae0b-8a4303204c04)
+
 
 
 ---
